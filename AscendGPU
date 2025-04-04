@@ -1,0 +1,140 @@
+<!DOCTYPE html><html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AscendGPU | Potência em Nuvem</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0e0e12;
+      color: #f4f4f4;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #00ff99;
+    }
+    header p {
+      color: #ccc;
+      font-size: 1.1rem;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .plans {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: #1c1c24;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 0 20px rgba(0, 255, 153, 0.15);
+    }
+    .card h3 {
+      color: #00ff99;
+      margin-top: 0;
+    }
+    .card ul {
+      list-style: none;
+      padding: 0;
+    }
+    .card ul li {
+      margin-bottom: 0.5rem;
+    }
+    .card .price {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 1rem 0;
+      color: #fff;
+    }
+    .contact {
+      margin-top: 3rem;
+      text-align: center;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: none;
+      border-radius: 8px;
+    }
+    form button {
+      padding: 1rem 2rem;
+      background-color: #00ff99;
+      color: #000;
+      border: none;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AscendGPU</h1>
+    <p>Performance em nuvem para acelerar o futuro. Potência, estabilidade e eficiência para sua empresa crescer.</p>
+  </header>  <div class="container">
+    <h2>Planos de Acesso à GPU</h2>
+    <div class="plans">
+      <div class="card">
+        <h3>Plano Start</h3>
+        <ul>
+          <li>Ideal para testes e projetos pequenos</li>
+          <li>Acesso dedicado à RTX 4090</li>
+          <li>50 horas mensais</li>
+        </ul>
+        <div class="price">R$ 750/mês</div>
+      </div>
+      <div class="card">
+        <h3>Plano Pro</h3>
+        <ul>
+          <li>Projetos de IA, Render e Simulação</li>
+          <li>Acesso dedicado à RTX 4090</li>
+          <li>100 horas mensais</li>
+        </ul>
+        <div class="price">R$ 1.400/mês</div>
+      </div>
+      <div class="card">
+        <h3>Plano Enterprise</h3>
+        <ul>
+          <li>Alta demanda e equipes corporativas</li>
+          <li>Prioridade e suporte 24/7</li>
+          <li>200 horas mensais</li>
+        </ul>
+        <div class="price">R$ 2.700/mês</div>
+      </div>
+    </div><div class="contact">
+  <h2>Entre em contato</h2>
+  <p>Solicite acesso ou personalize seu plano</p>
+  <form>
+    <input type="text" placeholder="Nome da empresa" required />
+    <input type="email" placeholder="Email" required />
+    <textarea placeholder="Descreva sua demanda" rows="4"></textarea>
+    <button type="submit">Solicitar Orçamento</button>
+  </form>
+</div>
+
+  </div>  <footer>
+    &copy; 2025 AscendGPU - Todos os direitos reservados
+  </footer>
+</body>
+</html>
